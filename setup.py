@@ -8,7 +8,7 @@ setuptools.setup(
     description='Tweezer: small data tools',
     long_description="This is mostly a test project",
     long_description_content_type="text/markdown",
-    url='https://github.com/ab-partners/chopper',
+    url='https://github.com/aspencage/twzr',
     license='MIT',
     packages=['twzr'],
     install_requires=[
