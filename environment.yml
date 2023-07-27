@@ -1,0 +1,9 @@
+name: twzr
+channels:
+  - conda-forge  # only Conda Forge
+  - nodefaults   # ignore user config
+dependencies:
+  ## Python
+  - python=3.10
+  - pandas
+  - numpy
