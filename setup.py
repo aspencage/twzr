@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='twzr',
-    version='0.1.4',
+    version='0.1.5',
     author='Aspen Cage',
     author_email='aspenncage@gmail.com',
     description='Tweezer: teeny tiny tools for data processing',
@@ -14,5 +14,11 @@ setuptools.setup(
     install_requires=[
         'numpy',
         'pandas'
-        ]
+        ],
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.10'
+    ]
 )
