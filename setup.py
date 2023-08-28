@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='twzr',
-    version='0.1.1',
+    version='0.1.2',
     author='Aspen Cage',
     author_email='aspen@abpartners.co',
     description='Tweezer: teeny tiny tools for data processing',
