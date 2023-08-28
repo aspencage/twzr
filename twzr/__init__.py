@@ -1,1 +1,1 @@
-import twzr.twzr
+from .twzr import *
