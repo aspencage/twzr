@@ -9,7 +9,7 @@ setuptools.setup(
     long_description="Microfunctions to help make pandas data transformation workflows faster. For example, Why type `df.filter(regex=re.compile('column',re.IGNORECASE))` when you can type `f(df,'column')`?",
     long_description_content_type="text/markdown",
     url='https://github.com/aspencage/twzr',
-    download_url='https://github.com/aspencage/twzr/archive/refs/tags/v0.1.6.tar.gz'
+    download_url='https://github.com/aspencage/twzr/archive/refs/tags/v0.1.6.tar.gz',
     license='MIT',
     packages=['twzr'],
     install_requires=[
