@@ -1,5 +1,5 @@
-# twzr
-## Tweezer: teeny tiny tools for data processing :mag::space_invader:
+# Tweezer
+### teeny tiny tools for data processing :mag::space_invader:
 
 `twzr` is a handful of microfunctions to help make `pandas` data transformation workflows faster. For example, Why type `df.filter(regex=re.compile('column',re.IGNORECASE))` when you can type `f(df,'column')`?
 
