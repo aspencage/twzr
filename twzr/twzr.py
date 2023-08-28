@@ -1,4 +1,4 @@
-# data_proc_template.py 
+# twzr.py 
 
 import pandas as pd 
 import numpy as np 
@@ -75,6 +75,25 @@ def move_col(df,col,new_index=None):
     xs = df.pop(col)
     df.insert(new_index,col,xs)
 
+help_str = """
+    current functions are:
+        f
+        vc
+        wvc
+        cross
+        cross_col
+        ch_val
+        ch_vals
+        ch_val_from
+        ch_vals_from
+        xt
+        move_col
+
+    
+"""
+
+
+def help():
 
 if __name__ == "__main__":
     
